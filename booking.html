@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Бронирование</title>
+    <link rel="stylesheet" href="booking.css">
+</head>
+<body>
+    <div id="main" class="head">
+        <img class="logo" src="img/logo.png" alt="">
+    </div>
+    <div class="block">
+        <a href="http://127.0.0.1:5500/TuristPro/#main" class="link">Главное</a>
+        <a href="http://127.0.0.1:5500/TuristPro/booking.html" class="link">Бронирование</a>
+        <a href="http://127.0.0.1:5500/TuristPro/search.html" class="link">Поиск</a>
+        <a href="" class="link">Выбор зон</a>
+        <a href="http://127.0.0.1:5500/TuristPro/review.html" class="link">Отзывы</a>
+    </div>
+    <div>
+        <img src="img/obzor.jpg" alt="" style="width: 100%;">
+        <p class="centered1">Отправляем в путешествия</p>
+        <p class="centered2">Организуем поездки и походы в самые красивые места России и всего мира</p>
+    </div>
+    <div class="container reservation">
+        <h2 id="booking" class='title'>Как бронировать?</h2>
+        <figure class='figure'>
+            <span class="text1">Найти подходящий для вас поход</span><i class="right"></i>
+            <span class="text1">Произвести оплату</span><i class="right"></i>
+            <span class="text1">Получить документы</span><i class="right"></i>
+            <span class="text1">Насладиться великолепным отдыхом</span>
+        </figure>
+    </div>
+    <div class="container1">
+        <h2 id="search" class='title'>Бронирование</h2>
+        <div class="form-find">
+            <ul class="list-find">
+                <li class="list-find-item">
+                    <span>Регион:</span>
+                    <select class="find select">
+                        <option value="1">Выберите маршрут:</option>
+                        <option value="2">Кавказ</option>
+                        <option value="3">Осетия</option>
+                        <option value="4">ОАЭ</option>
+                        <option value="5">Нью-Йорк</option>
+                        <option value="6">Юго-Восточная Азия</option>
+                        <option value="7">Карелия</option>
+                        <option value="8">Египет</option>
+                    </select>
+                </li>
+                <li class="list-find-item">
+                    <label>Введите дату: <input type="date" class="find data"></label>
+                </li>
+                <li class="list-find-item">
+                    <label>Количество людей: <input type="text" value="0" class="find value"></label>
+                </li>
+                <li class="list-find-item">Уровень подготовки:
+                    <select class="select">
+                        <option value="1">Низкий</option>
+                        <option value="1">Любитель</option>
+                        <option value="2">Средний</option>
+                        <option value="3">Профессиональный</option>
+                    </select>
+                </li>
+                <li class="list-find-item">Стоимость:
+                    <select class="select">
+                        <option value="1">Очарование зимнего Кавказа (от 35 000 руб./чел.)</option>
+                        <option value="2">Тур в Северную Осетию на выходные (от 26 400 руб./чел.)</option>
+                        <option value="3">Активный тур «Восхитительные Эмираты» (от 70 000 руб./чел.)</option>
+                        <option value="4">Нью-Йорк - Майами (от 80 000 руб руб./чел.)</option>
+                        <option value="5">Вьетнам-Камбоджа: джунгли, храмы и великий ангкор ( от 200 000 руб./чел.)</option>
+                        <option value="6">Калга (Карелия): сплав на байдарках с выходом в белое море (от 22 000 руб./чел.)</option>
+                        <option value="7">Комфорт-Тур "Жаркий Египет: пирамиды и море" (от 48 000 руб./чел.)</option>
+                    </select>
+                </li>
+            </ul>
+            <button class="button button-find">Поиск</button>
+        </div>
+    </div>
+    <div class="container2">
+        <h2>Дополнительные услуги</h2>
+        <ul class="dopuslugi">
+        <br><input type="checkbox"> Аренда фотоаппарата (800 рублей за день)
+        <br><input type="checkbox"> Аренда походной палатки (3500 рублей за период отдыха)
+        <br><input type="checkbox"> Услуги проводника (5000 рублей за период отдыха)
+        <br><input type="checkbox"> Аренда походного оборудования (1500 рублей за день)
+        </ul>
+    </div>
+    <div class="container3">
+        <h2>Коментарии</h2>
+        <p>Добавить коментарий</p>
+        <input type="text" class="inputcomment"> 
+        <br><button class="butcomment">Опубликовать</button>
+        <button>Очистить</button>
+        <h2>Итоговая стоимость: 83 800 рублей</h2>
+        
+    </div>
+    <footer>
+        <div class="waves">
+            <div class="wave" id="wave1"></div>
+        </div>
+        <ul class="social">
+            <li><a href="#"><ion-icon name="logo-whatsapp"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-reddit"></ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-facebook"><ion-icon></a></li>
+            <li><a href="#"><ion-icon name="logo-instagram"></ion-icon></a></li>
+        </ul>
+        <ul class="contact">
+            <a href="#" class="contact">+7 985 324-23-12</a>
+            <br><br><a href="#" class="contact">TouristPro@mail.ru</a>
+        </ul>
+        <ul class="menu">
+            <li><a href="http://127.0.0.1:5500/TuristPro/#main">Главная</a></li>
+            <li><a href="http://127.0.0.1:5500/TuristPro/booking.html">Бронирование</a></li>
+            <li><a href="http://127.0.0.1:5500/TuristPro/search.html">Поиск</a></li>
+            <li><a href="">Выбор зон</a></li>
+            <li><a href="http://127.0.0.1:5500/TuristPro/review.html">Отзывы</a></li>
+        </ul>
+        <p>©2022 Turist-PRO | All Rights Reserved</p>
+    </footer>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
